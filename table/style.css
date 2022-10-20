@@ -1,0 +1,113 @@
+html {
+    margin-bottom: 0.5vw;
+    overflow-x: hidden;
+}
+
+img {
+    width: 1.2vw;
+    display: inline-block;
+}
+
+.bigger {
+    width: 7.5vw;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+.plus{
+	display:inline;
+}
+
+.opening {
+    text-align: center;
+    font-size: 2.5vw;
+    height: 8vw;
+    margin-top: 2vw;
+}
+
+
+.link{
+	font-size:1vw;
+
+}
+a{
+	color:black;
+}
+table {
+    border: 0px;
+    width: 100%;
+    margin-left:1vw
+}
+thead {
+    font-family: helvetica, sans-serif;
+}
+
+
+
+
+tr {
+    text-align: left;
+}
+
+@media only screen and (max-width: 1000px) {
+	.opening {
+    text-align: center;
+    font-size: 5vw;
+    height: 14vh;
+    margin-top: 2vw;
+}
+
+.link{
+	font-size:3vw;
+
+}
+img {
+    width: 5vw;
+    display: inline-block;
+}
+table {
+    border: 0px;
+    width: 100%;
+    margin-left:1vw;
+
+    
+
+}
+thead {
+    font-family: helvetica, sans-serif;
+    font-size:12px;
+}
+
+
+td{
+	font-size:10px;
+	word-break: break-all;
+	vertical-align: top
+
+}
+
+tr {
+    text-align: left;
+}
+td:first-of-type{
+	width:25vw;
+}
+td:nth-of-type(3){
+	width:5vw;
+}
+td:nth-of-type(6){
+	width:3vw;
+}
+td:nth-of-type(2){
+	width:5vw;
+}
+td:nth-of-type(4){
+	width:5vw;
+}
+td:nth-of-type(5){
+	width:2vw;
+}
+th{
+	border: 1px solid black;
+}

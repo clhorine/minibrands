@@ -1,0 +1,61 @@
+html {
+    margin-bottom: 0.5vw;
+    overflow-x: hidden;
+}
+img{
+    width:18vw;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.opening {
+    text-align: center;
+    font-size: 2.5vw;
+    height: 8vw;
+    margin-top: 2vw;
+}
+
+
+.link{
+	font-size:1vw;
+
+}
+a{
+	color:black;
+}
+.grid {
+  display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 19vw);
+    grid-gap: 15px;
+}
+@media only screen and (max-width: 1000px) {
+	.opening {
+    text-align: center;
+    font-size: 5vw;
+    height: 15vh;
+    margin-top: 2vw;
+}
+
+.link{
+	font-size:3vw;
+
+}
+.grid {
+  display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(12, 22vw);
+    grid-gap:8px;
+}
+
+img{
+    width:22vw;
+}
+
+html {
+    margin-bottom: 11vw;
+    overflow-x: hidden;
+    
+}
